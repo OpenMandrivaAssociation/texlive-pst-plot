@@ -58,6 +58,7 @@ variety of parameters.
 %doc %{_texmfdistdir}/doc/generic/pst-plot/pst-plot97.tex
 #- source
 %doc %{_texmfdistdir}/source/generic/pst-plot/Makefile
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -68,3 +69,5 @@ variety of parameters.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
