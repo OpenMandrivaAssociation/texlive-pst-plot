@@ -1,11 +1,11 @@
-# revision 24390
+# revision 24493
 # category Package
 # catalog-ctan /graphics/pstricks/contrib/pst-plot
-# catalog-date 2011-10-24 23:09:29 +0200
+# catalog-date 2011-11-04 00:07:08 +0100
 # catalog-license lppl
-# catalog-version 1.31
+# catalog-version 1.33
 Name:		texlive-pst-plot
-Version:	1.31
+Version:	1.33
 Release:	1
 Summary:	Plot data using PSTricks
 Group:		Publishing
