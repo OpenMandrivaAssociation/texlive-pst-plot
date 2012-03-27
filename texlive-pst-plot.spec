@@ -1,12 +1,12 @@
-# revision 25485
+# revision 25646
 # category Package
 # catalog-ctan /graphics/pstricks/contrib/pst-plot
-# catalog-date 2012-02-23 09:12:51 +0100
+# catalog-date 2012-03-13 23:00:45 +0100
 # catalog-license lppl
 # catalog-version 1.38
 Name:		texlive-pst-plot
 Version:	1.38
-Release:	1
+Release:	2
 Summary:	Plot data using PSTricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-plot
@@ -38,6 +38,7 @@ variety of parameters.
 %{_texmfdistdir}/tex/latex/pst-plot/pst-plot.sty
 %doc %{_texmfdistdir}/doc/generic/pst-plot/Changes
 %doc %{_texmfdistdir}/doc/generic/pst-plot/README
+%doc %{_texmfdistdir}/doc/generic/pst-plot/demo.txt
 %doc %{_texmfdistdir}/doc/generic/pst-plot/more_docs/README
 %doc %{_texmfdistdir}/doc/generic/pst-plot/more_docs/dtk02-1.pdf
 %doc %{_texmfdistdir}/doc/generic/pst-plot/more_docs/dtk02-2.pdf
