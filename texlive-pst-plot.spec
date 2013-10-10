@@ -1,19 +1,18 @@
-# revision 26218
+# revision 31715
 # category Package
 # catalog-ctan /graphics/pstricks/contrib/pst-plot
-# catalog-date 2012-03-26 15:52:21 +0200
+# catalog-date 2013-09-21 13:34:37 +0200
 # catalog-license lppl
-# catalog-version 1.40
+# catalog-version 1.50
 Name:		texlive-pst-plot
-Version:	1.40
-Release:	2
+Version:	1.50
+Release:	1
 Summary:	Plot data using PSTricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-plot
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-plot.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-plot.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-plot.source.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -35,27 +34,30 @@ variety of parameters.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/generic/pst-plot/pst-plot.tex
+%{_texmfdistdir}/tex/generic/pst-plot/pst-plot97.tex
 %{_texmfdistdir}/tex/latex/pst-plot/pst-plot.sty
 %doc %{_texmfdistdir}/doc/generic/pst-plot/Changes
+%doc %{_texmfdistdir}/doc/generic/pst-plot/Contents
 %doc %{_texmfdistdir}/doc/generic/pst-plot/README
-%doc %{_texmfdistdir}/doc/generic/pst-plot/more_docs/README
-%doc %{_texmfdistdir}/doc/generic/pst-plot/more_docs/dtk02-1.pdf
-%doc %{_texmfdistdir}/doc/generic/pst-plot/more_docs/dtk02-2.pdf
-%doc %{_texmfdistdir}/doc/generic/pst-plot/more_docs/tugboat01-4.pdf
+%doc %{_texmfdistdir}/doc/generic/pst-plot/dtk02-1.pdf
+%doc %{_texmfdistdir}/doc/generic/pst-plot/dtk02-1.tex
+%doc %{_texmfdistdir}/doc/generic/pst-plot/dtk02-2.bib
+%doc %{_texmfdistdir}/doc/generic/pst-plot/dtk02-2.pdf
+%doc %{_texmfdistdir}/doc/generic/pst-plot/dtk02-2.tex
 %doc %{_texmfdistdir}/doc/generic/pst-plot/pst-plot-doc.bib
 %doc %{_texmfdistdir}/doc/generic/pst-plot/pst-plot-doc.dat
 %doc %{_texmfdistdir}/doc/generic/pst-plot/pst-plot-doc.pdf
 %doc %{_texmfdistdir}/doc/generic/pst-plot/pst-plot-doc.tex
-%doc %{_texmfdistdir}/doc/generic/pst-plot/pst-plot97.tex
-#- source
-%doc %{_texmfdistdir}/source/generic/pst-plot/Makefile
+%doc %{_texmfdistdir}/doc/generic/pst-plot/tugboat01-4.bib
+%doc %{_texmfdistdir}/doc/generic/pst-plot/tugboat01-4.pdf
+%doc %{_texmfdistdir}/doc/generic/pst-plot/tugboat01-4.tex
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a0 -a1
 
 %build
 
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
-cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+cp -fpar tex doc %{buildroot}%{_texmfdistdir}
