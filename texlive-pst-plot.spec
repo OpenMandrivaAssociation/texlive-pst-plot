@@ -1,11 +1,11 @@
-# revision 31715
+# revision 32222
 # category Package
 # catalog-ctan /graphics/pstricks/contrib/pst-plot
-# catalog-date 2013-09-21 13:34:37 +0200
+# catalog-date 2013-11-23 01:25:26 +0100
 # catalog-license lppl
-# catalog-version 1.50
+# catalog-version 1.56
 Name:		texlive-pst-plot
-Version:	1.50
+Version:	1.56
 Release:	1
 Summary:	Plot data using PSTricks
 Group:		Publishing
@@ -20,7 +20,7 @@ Requires(post):	texlive-kpathsea
 
 %description
 The package provides plotting of data (typically from external
-files), using PSTricks. Plots my be configured using a wide
+files), using PSTricks. Plots may be configured using a wide
 variety of parameters.
 
 %post
@@ -46,7 +46,9 @@ variety of parameters.
 %doc %{_texmfdistdir}/doc/generic/pst-plot/dtk02-2.tex
 %doc %{_texmfdistdir}/doc/generic/pst-plot/pst-plot-doc.bib
 %doc %{_texmfdistdir}/doc/generic/pst-plot/pst-plot-doc.dat
+%doc %{_texmfdistdir}/doc/generic/pst-plot/pst-plot-doc.eps
 %doc %{_texmfdistdir}/doc/generic/pst-plot/pst-plot-doc.pdf
+%doc %{_texmfdistdir}/doc/generic/pst-plot/pst-plot-doc.png
 %doc %{_texmfdistdir}/doc/generic/pst-plot/pst-plot-doc.tex
 %doc %{_texmfdistdir}/doc/generic/pst-plot/tugboat01-4.bib
 %doc %{_texmfdistdir}/doc/generic/pst-plot/tugboat01-4.pdf
