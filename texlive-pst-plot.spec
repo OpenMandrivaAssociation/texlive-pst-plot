@@ -6,7 +6,7 @@
 # catalog-version 1.62
 Name:		texlive-pst-plot
 Version:	1.62
-Release:	3
+Release:	4
 Summary:	Plot data using PSTricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-plot
