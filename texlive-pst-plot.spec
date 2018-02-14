@@ -1,5 +1,5 @@
 Name:		texlive-pst-plot
-Version:	1.87
+Version:	1.88
 Release:	1
 Summary:	Plot data using PSTricks
 Group:		Publishing
