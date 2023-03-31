@@ -1,6 +1,6 @@
 Name:		texlive-pst-plot
 Version:	65346
-Release:	1
+Release:	2
 Summary:	Plot data using PSTricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-plot
