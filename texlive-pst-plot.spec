@@ -3,7 +3,7 @@ Version:	65346
 Release:	2
 Summary:	Plot data using PSTricks
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-plot
+URL:		https://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-plot
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-plot.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-plot.doc.r%{version}.tar.xz
